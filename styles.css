@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: rgba(255, 0, 0, 0.445);
+    max-width: 1366px;
+    width: 100%;
+    margin: 0px auto;
+    
+    
+}
+
+#numeroA, #numeroB, #enviar{
+    margin-top: 10px;
+
+}
+
+#enviar{
+    width: 70px;
+    height: 30px;
+}
+
+#numeroA, #numeroB{
+    width: 300px;
+    height: 30px;
+}
+
+
