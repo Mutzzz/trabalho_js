@@ -1,4 +1,4 @@
-function maximo(valorA, valorB) {
+function maximo() {
     let valorA = parseInt(document.getElementById('numeroA').value);
     let valorB = parseInt(document.getElementById('numeroB').value);
     

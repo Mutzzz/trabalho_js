@@ -6,11 +6,8 @@
 
 
 .container {
-    max-width: 1366px;
-    width: 100%;
-    margin: 0px auto;
-    
-    
+    margin: auto auto;
+    padding: 0px;
 }
 
 #numeroA, #numeroB, #enviar{
@@ -21,11 +18,71 @@
 #enviar{
     width: 70px;
     height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 2px solid #4CAF50;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#enviar:hover{
+    background-color: rgba(24, 175, 168, 0.377);
+}
+
+
+
+input[type="number"]:focus{
+    outline: none;
+    border: 2px solid #142274d0;
+
 }
 
 #numeroA, #numeroB{
     width: 300px;
     height: 30px;
 }
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+input[type="number"], input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    margin-top: 290px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-bottom: 3px solid #ccc;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
 
 
