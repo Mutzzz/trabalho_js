@@ -1,44 +1,12 @@
-
-
-
-
-
-
-
-function maximo(valorA, valorB){
-    let valorA = parseInt(document.getElementById('numeroA').value)
-
-    let valorB = parseInt(document.getElementById('numeroB').value)
+function maximo(valorA, valorB) {
+    let valorA = parseInt(document.getElementById('numeroA').value);
+    let valorB = parseInt(document.getElementById('numeroB').value);
     
-    if (valorA > valorB)
-        {return valorA
+    if (valorA > valorB) {
         alert('O resultado foi ' + valorA);
-        }
-    else{ return valorB
+        return valorA;
+    } else {
         alert('O resultado foi ' + valorB);
+        return valorB;
     }
-    
-    }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
