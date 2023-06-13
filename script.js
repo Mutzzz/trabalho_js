@@ -2,18 +2,25 @@
 
 
 
-let valorA = parseInt(document.getElementById('numeroA').value)
 
-let valorB = parseInt(document.getElementById('numeroB').value)
 
 
 function maximo(valorA, valorB){
+    let valorA = parseInt(document.getElementById('numeroA').value)
+
+    let valorB = parseInt(document.getElementById('numeroB').value)
+    
     if (valorA > valorB)
-        return valorA;
-    else return valorB;
-}
-let resultado = maximo (parseInt(valorA, valorB).value)
-    alert('o resultado foi ' + resultado)
+        {return valorA
+        alert('O resultado foi ' + valorA);
+        }
+    else{ return valorB
+        alert('O resultado foi ' + valorB);
+    }
+    
+    }
+    
+
 
 
 
